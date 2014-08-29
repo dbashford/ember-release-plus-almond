@@ -1,0 +1,9 @@
+{
+  "name": "ember-release-plus-almond",
+  "version": "0.0.1",
+  "dependencies": {
+    "consolidate": "0.10.0",
+    "jade": "0.35.0",
+    "express": "3.4.7"
+  }
+}
