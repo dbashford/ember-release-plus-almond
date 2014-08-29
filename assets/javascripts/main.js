@@ -15,8 +15,8 @@ requirejs.config({
 
     // switch the comment on the next two lines to go between
     // release and beta.
-    //'ember': 'vendor/ember/ember.beta'
-    'ember': 'vendor/ember/ember.release'
+    'ember': 'vendor/ember/ember.beta'
+    //'ember': 'vendor/ember/ember.release'
   }
 });
 
