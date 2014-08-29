@@ -24,7 +24,7 @@ All this does is `console.log` the Ember object from inside the `app.js` file.
 * `node app.js`
 * Launch http://localhost:3000
 
-This mimosa command runs the r.js optimizer and bundles the small app with almond. This successfully logs the Ember object.
+`mimosa build` runs the r.js optimizer and bundles the small app with almond. This bundled app successfully logs the Ember object.
 
 ## Bundled with 1.7 release does not work
 
@@ -55,3 +55,5 @@ Changes to the ember source:
 * Change `requireModule("ember")` to `requireModule("ember-int")`
 
 These two changes clear up any confusion between ember's define and my own define of `ember`.
+
+I made a [Mimosa module](https://github.com/dbashford/mimosa-fix-rjs-ember) to perform this change to the ember source during the build rather than have to change the source by hand.
