@@ -3,7 +3,7 @@ ember-release-plus-almond
 
 This project illustrates how the `1.7` release build of ember doesn't seem to be bundling with almond.  However, the last `1.7` beta and the first `1.8` beta both work.
 
-## To get started with this..
+## To get started...
 
 * `npm install -g mimosa`
 * `git clone https://github.com/dbashford/ember-release-plus-almond`
